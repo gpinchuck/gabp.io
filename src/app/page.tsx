@@ -1,7 +1,14 @@
-export default function Home() {
-  return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+import Header from "./components/core/Header";
 
-    </main>
+export default function Home() {
+
+  return (
+    <>
+      <Header />
+
+      <main className="flex min-h-screen flex-col items-center justify-between p-24">
+        
+      </main>
+    </>
   );
 }
