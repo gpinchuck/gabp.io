@@ -11,7 +11,7 @@ const Header = () => {
   return (
     <header className="w-full relative">
       <div className="container mx-auto flex justify-between items-center p-4">
-        <div className="container content-centre">
+        <div className="container content-centre w-auto">
         <a href='/'>
             <h1 className="text-white text-xl font-bold">Gabriel Pinchuck</h1>
             <h2 className="text-white">Front-End Developer</h2>
