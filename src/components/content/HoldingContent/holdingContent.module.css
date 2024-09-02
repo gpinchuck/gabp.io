@@ -1,0 +1,16 @@
+.linkedinLink {
+    border-radius: 10px;
+}
+
+.linkedinLink:hover {
+    animation: linkedInHover 0.25s forwards;
+}
+
+@keyframes linkedInHover {
+    0% {
+        box-shadow: 0px 0px 0px 0px #007ebb;
+    }
+    100% {
+        box-shadow: 0px 0px 15px 15px #007ebb;
+    }
+}
