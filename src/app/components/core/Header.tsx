@@ -9,7 +9,7 @@ const Header = () => {
   };
 
   return (
-    <header className="w-full relative">
+    <header className="w-full fixed">
       <div className="container mx-auto flex justify-between items-center p-4">
         <div className="container content-centre w-auto">
         <a href='/'>
