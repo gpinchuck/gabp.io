@@ -1,15 +1,16 @@
 'use client';
 import { useState } from 'react';
+import headerStyles from './Header.module.css';
 
 const Header = () => {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState<boolean>(false);
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
 
   return (
-    <header className="w-full fixed">
+    <header className={`${headerStyles.header} w-full sticky top-0`}>
       <div className="container mx-auto flex justify-between items-center p-4">
         <div className="container content-centre w-auto">
           <a href='/'>
